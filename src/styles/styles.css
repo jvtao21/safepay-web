@@ -1,0 +1,152 @@
+#root{
+  height:100%
+}
+
+html{
+  height:100%;
+}
+body {
+  height:100%;
+  margin: 0;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.content-right{
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.logo {
+  padding-left: 1.5em;
+  height:25px;
+  width:auto;
+}
+
+.content-right {
+  flex: 1;
+  margin:1em;
+}
+
+.content-button {
+  background-color: #3d95ce;
+  box-shadow: 0 1px 2px rgba(38,38,38,.15);
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 16px 28px;
+  width:100%;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.content-button:focus {
+  outline:0;
+}
+
+.content-button:hover {
+  background-color: #6fb4e0;
+}
+
+.header-title{
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 22px;
+  font-weight: 300;
+}
+
+.home-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.header{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+  flex: 1;
+  padding-top: 4em;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-bottom: 100px;
+  flex: 1;
+}
+
+.logo-image-android {
+  left: 0px;
+  width: 18em;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-image-iphone {
+  width: 18em;
+  position: absolute;
+  z-index: 3;
+  height: auto;
+  max-width: 100%;
+  height: auto;
+  right:2.0em;
+}
+
+.container{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+@media (max-width: 769px) {
+  .logo-image-iphone{
+    right: 0 !important;
+  }
+  .home-content {
+    flex-direction: column;
+  }
+  .logo-image-android {
+    width: 15em !important;
+  }
+
+  .logo-image-iphone {
+    width: 15em !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* .logo-image-iphone{
+    right: 2.0em !important;
+  } */
+}
+
+/* Small Desktop */
+@media (min-width: 769px) {
+  .header,
+  .home-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    height: 100vh;
+  }
+}
+/* Large Desktop */
+@media (min-width: 1000px) {
+  .header,
+  .home-content {
+
+  }
+}
