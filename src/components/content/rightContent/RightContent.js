@@ -38,7 +38,7 @@ setBtnAction() {
         className='content-button'
         onClick={this.setBtnAction}
       >
-        So Cleeeeeaan Button
+        Download
       </button>
     )
   }
@@ -49,8 +49,8 @@ class RightContent extends Component {
     return (
       <div className='content-right'>
         <div className='content-right-container'>
-      <div className='header-title'>WoW, Cleeeaan title</div>
-      <RightContentButton />
+          <div className='header-title'>Send money and make purchases</div>
+          <RightContentButton />
         </div>
       </div>
     )

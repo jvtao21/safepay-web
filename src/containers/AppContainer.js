@@ -4,11 +4,6 @@ import styles from './styles'
 
 class AppContainer extends Component {
 
-  constructor(props) {
-    super(props);
-
-  }
-
   render() {
     return (
       <div style={styles.container}>

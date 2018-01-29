@@ -3,7 +3,6 @@ export default {
     display:'flex',
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
-    background: '#3d95ce',
     borderBottom: '1px solid #ededed',
     lineHeight: '40px',
     paddingTop:'19px',
@@ -11,8 +10,16 @@ export default {
     position: 'relative',
     width: '100%',
     zIndex: '1',
-    marginRight:'auto',
-    marginLeft:'auto',
-    maxWidth:'1000px'
+  },
+  headerContainer: {
+    maxWidth: '1000px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    float:'left'
+  },
+  globalMargin: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyItems: 'center',
   }
 }
