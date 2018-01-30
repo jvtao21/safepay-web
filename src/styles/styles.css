@@ -8,7 +8,7 @@ html{
 body {
   height:100%;
   margin: 0;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Helvetica Neue, Helvetica,Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -26,7 +26,7 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .content-right{
@@ -39,7 +39,7 @@ body {
 
 .logo {
   padding-left: 1.5em;
-  height:25px;
+  height:40px;
   width:auto;
 }
 
@@ -62,6 +62,9 @@ body {
   border: 0;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: Helvetica Neue, Helvetica,Arial,sans-serif;
 }
 .content-button:focus {
   outline:0;
@@ -84,6 +87,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
+  padding-bottom: 64px;
 }
 
 .copyright,
@@ -180,6 +184,10 @@ body {
   .header-container{
     width:750px;
   }
+
+  .header-title {
+    text-align: center;
+  }
 }
 
 @media (max-width: 435px) {
@@ -254,7 +262,7 @@ body {
 .three-item-block h2 {
   font-weight:200;
   letter-spacing: 2.0px;
-  color:#6f1fd4;
+  color:#3d95ce;
 }
 
 .circle {
@@ -354,4 +362,46 @@ ul{
 
 .wabi{
   height:50px;
+}
+
+.email {
+  background: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  height: 46px;
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 48px;
+  padding: 10px 16px;
+  font-size: 19px;
+  line-height: 1.33;
+  border-radius: 4px;
+}
+
+.form-control {
+  display: block;
+  outline: none;
+  height: 33px;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.33333333;
+  color: #040d14;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #b1bfc4;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.email:focus {
+  border-color: #3d95ce;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }

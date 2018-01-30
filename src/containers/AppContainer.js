@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import Parse from 'parse'
 import styles from './styles'
 
-class AppContainer extends Component {
+export default class AppContainer extends Component {
+  constructor(props) {
+    super(props)
 
+    Parse.initialize('Trojan')
+    Parse.serverURL = 'https://sandbox.getsafepay.com/api'
+  }
   render() {
     return (
       <div style={styles.container}>
@@ -12,20 +17,3 @@ class AppContainer extends Component {
     )
   }
 }
-
-function mapStateToProps(state) {
-  return {
-
-  }
-}
-
-function mapDispatchToProps(dispatch) {
-  return {
-
-  }
-}
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(AppContainer)

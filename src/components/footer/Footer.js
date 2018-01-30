@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 // import styles from './styles'
 
+const iOSURL = "https://itunes.apple.com/pk/app/safepay-pakistan/id1234427585?mt=8"
+const androidURL = "https://play.google.com/store/apps/details?id=com.dyno.trojan"
+const line1 = "Safepay is a service of Intelligent Financial Technologies Inc a PCI compliant technology company."
+const line2 = "Intelligent Financial Technologies is located in Karachi, Pakistan and San Francisco, California"
+const copyright = line1 + " " + line2
+
 class Footer extends Component {
   render() {
     return (
@@ -24,18 +30,19 @@ class Footer extends Component {
             </div>
           </div>
             <div className='footer-block-badges'>
-              <a alt='' href="https://itunes.apple.com/us/app/venmo/id351727428?mt=8"><img alt='missing' className='app-store-badge' src='/images/apple-app-store.svg'/></a>
-              <a href="https://itunes.apple.com/us/app/venmo/id351727428?mt=8"><img alt='missing' className='google-play-badge' src='/images/google-play-badge.svg'/></a>
+              <a alt='' href={iOSURL}><img alt='missing' className='app-store-badge' src='/images/apple-app-store.svg'/></a>
+              <a href={androidURL}><img alt='missing' className='google-play-badge' src='/images/google-play-badge.svg'/></a>
             </div>
           </div>
         </div>
-      <div className='copyright'>
-        <div className='copyright-container'><span>Venmo is a service of PayPal, Inc., a licensed provider of money transfer services (NMLS ID: 910457). All money transmission is provided by PayPal, Inc. pursuant to PayPal, Inc.’s licenses. © 2017 PayPal, Inc.
-        </span>
-        <a href="https://itunes.apple.com/us/app/venmo/id351727428?mt=8"><img alt='missing' className='wabi' src='/images/wabiLogo.png'/></a>
-
-      </div>
-      </div>
+        <div className='copyright'>
+          <div className='copyright-container'>
+            <span>
+              { copyright }
+            </span>
+            <a href={iOSURL}><img alt='missing' className='wabi' src='/images/wabiLogo.png'/></a>
+          </div>
+        </div>
       </div>
     )
   }

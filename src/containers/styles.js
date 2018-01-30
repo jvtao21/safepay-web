@@ -3,7 +3,7 @@ export default {
     display: 'flex',
     flex: '1',
     flexDirection: 'column',
-    overflow: 'hidden',
+    //overflow: 'hidden',
     height: '100%'
   }
 }
