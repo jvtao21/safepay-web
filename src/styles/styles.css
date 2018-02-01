@@ -405,3 +405,13 @@ ul{
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+.footer-container a{
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.home-container {
+  height: 100%;
+  overflow: scroll;
+}

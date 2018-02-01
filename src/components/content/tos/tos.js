@@ -70,7 +70,7 @@ const styles = {
 class Terms extends Component {
   render() {
     return (
-      <div id="container-tos">
+      <div className="home-container">
         <div style={styles.environment}>
           <div style={styles.sectionHeader}>
             <h1 style={styles.title}>USER AGREEMENT</h1>

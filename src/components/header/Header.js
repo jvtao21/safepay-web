@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <div style={styles.header} className='header'>
         <div style={styles.headerContainer} className='header-container'>
-            <img alt='missing' className='logo' src={picture} />
+            <a href="/home"><img alt='missing' className='logo' src={picture} /></a>
         </div>
       </div>
     )

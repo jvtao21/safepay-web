@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Parse from 'parse'
 import styles from './styles'
+import Header from '../components/header/Header'
 
 export default class AppContainer extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ export default class AppContainer extends Component {
   render() {
     return (
       <div style={styles.container}>
+        <Header/>
         { this.props.children }
       </div>
     )

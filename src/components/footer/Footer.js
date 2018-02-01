@@ -16,17 +16,17 @@ class Footer extends Component {
           <div className='footer-block-group'>
             <div className='footer-block'>
               <h4>Company</h4>
-              <ul>Our Team</ul>
+              <ul><a href="mailto:admin@getsafepay.com">Contact Us</a></ul>
             </div>
             <div className='footer-block'>
               <h4>Community</h4>
-              <ul>Facebook</ul>
-              <ul>Twitter</ul>
-              <ul>Blog</ul>
+              <ul><a target='_blank' href="https://www.facebook.com/safepay.pk/">Facebook</a></ul>
+              <ul><a target='_blank' href="https://twitter.com/getsafepay">Twitter</a></ul>
+              <ul><a target='_blank' href="https://www.instagram.com/safepay.pk/?hl=en">Instagram</a></ul>
             </div>
             <div className='footer-block'>
               <h4>Terms</h4>
-              <ul>Legal</ul>
+              <ul ><a href="/terms">Legal</a></ul>
             </div>
           </div>
             <div className='footer-block-badges'>
