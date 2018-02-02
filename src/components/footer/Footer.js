@@ -30,8 +30,8 @@ class Footer extends Component {
             </div>
           </div>
             <div className='footer-block-badges'>
-              <a alt='' href={iOSURL}><img alt='missing' className='app-store-badge' src='/images/apple-app-store.svg'/></a>
-              <a href={androidURL}><img alt='missing' className='google-play-badge' src='/images/google-play-badge.svg'/></a>
+              <a alt='' href={iOSURL}><img alt='missing' className='app-store-badge' src='https://s3.amazonaws.com/dyno-files/web/apple-app-store.svg'/></a>
+              <a href={androidURL}><img alt='missing' className='google-play-badge' src='https://s3.amazonaws.com/dyno-files/web/google-play-badge.svg'/></a>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ class Footer extends Component {
             <span>
               { copyright }
             </span>
-            <a href={iOSURL}><img alt='missing' className='wabi' src='/images/wabiLogo.png'/></a>
+            <a href={iOSURL}><img alt='missing' className='wabi' src='https://s3.amazonaws.com/dyno-files/web/wabiLogo.png'/></a>
           </div>
         </div>
       </div>

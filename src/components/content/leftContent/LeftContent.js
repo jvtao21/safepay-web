@@ -6,8 +6,8 @@ class LeftContent extends Component {
     return (
       <div className='content-left'>
           <div className="container">
-              <img alt='missing' className='logo-image-android' src='/images/androidHome.png'/>
-              <img alt='missing' className='logo-image-iphone' src='/images/iphoneHome.png'/>
+              <img alt='missing' className='logo-image-android' src='https://s3.amazonaws.com/dyno-files/web/androidHome.png'/>
+              <img alt='missing' className='logo-image-iphone' src='https://s3.amazonaws.com/dyno-files/web/iphoneHome.png'/>
           </div>
       </div>
     )
