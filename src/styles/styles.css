@@ -412,6 +412,10 @@ ul{
 }
 
 .home-container {
-  height: 100%;
-  overflow: scroll;
+  /* height: 100%;
+  overflow: scroll; */
+}
+
+.header-container a {
+  display:flex;
 }

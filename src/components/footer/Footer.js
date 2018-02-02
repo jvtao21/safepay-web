@@ -20,9 +20,9 @@ class Footer extends Component {
             </div>
             <div className='footer-block'>
               <h4>Community</h4>
-              <ul><a target='_blank' href="https://www.facebook.com/safepay.pk/">Facebook</a></ul>
-              <ul><a target='_blank' href="https://twitter.com/getsafepay">Twitter</a></ul>
-              <ul><a target='_blank' href="https://www.instagram.com/safepay.pk/?hl=en">Instagram</a></ul>
+              <ul><a rel="noopener noreferrer" target='_blank' href="https://www.facebook.com/safepay.pk/">Facebook</a></ul>
+              <ul><a rel="noopener noreferrer" target='_blank' href="https://twitter.com/getsafepay">Twitter</a></ul>
+              <ul><a rel="noopener noreferrer" target='_blank' href="https://www.instagram.com/safepay.pk/?hl=en">Instagram</a></ul>
             </div>
             <div className='footer-block'>
               <h4>Terms</h4>
