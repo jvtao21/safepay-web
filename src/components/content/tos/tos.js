@@ -5,7 +5,6 @@ const styles = {
     marginLeft: 'auto',
     marginRight: 'auto',
     height: 'auto',
-    width: '100%',
     padding: '30px 20px',
     overflowY: 'scroll'
   },
