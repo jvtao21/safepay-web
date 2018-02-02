@@ -8,7 +8,7 @@ export default class AppContainer extends Component {
     super(props)
 
     Parse.initialize('Trojan')
-    Parse.serverURL = 'https://sandbox.getsafepay.com/api'
+    Parse.serverURL = 'https://production.getsafepay.com/api'
   }
   render() {
     return (
